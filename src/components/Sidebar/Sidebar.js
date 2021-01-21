@@ -15,15 +15,15 @@ class Sidebar extends React.Component {
         </div>
 
         <div className="info">
-          <label className="name" > Daniel Cunha</label>
+          <p className="name"> Daniel Cunha</p>
 
           <div className="git-icon">
-            <AiFillGithub />
+            <label> <AiFillGithub /> </label>
             <a href="https://github.com/dandankarai">Github</a> <br />
           </div>
 
           <div className="linkedin-icon">
-            <AiFillLinkedin />
+            <label> <AiFillLinkedin /> </label>
             <a href="https://www.linkedin.com/in/daniel-cunha-4b0a56162/">Linkedin</a>
           </div>
         </div>

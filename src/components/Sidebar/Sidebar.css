@@ -21,6 +21,7 @@
   margin: 10px;
   align-content: center;
 }
+/* div contendo o nome e os icons */
 .info{
   margin: 5px;
   text-align: left;
@@ -36,7 +37,26 @@
 
 .git-icon{
   color: #FFF;
-  padding-top: 1em;
-  font-size: 25px;
+  padding-top: 0em;
+  font-size: 22px;
   padding-left: 0em;
+}
+
+.linkedin-icon{
+  color: #FFF;
+  padding-top: 1em;
+  font-size: 22px;
+  padding-left: 0em;
+}
+
+/* mexer na info somente os links */
+.info a {
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* mexer somente na label que tem os icons */
+.info label{
+  font-size: 20px;
 }
