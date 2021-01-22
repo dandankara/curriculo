@@ -26,6 +26,7 @@
   margin: 5px;
   text-align: left;
   padding:0;
+  align-content: center;
 }
 
 .name{
@@ -54,9 +55,12 @@
   color: #FFF;
   font-size: 20px;
   text-decoration: none;
+  position: fixed;
+  margin-left: 8px;
+  margin-top: 2px;
 }
 
 /* mexer somente na label que tem os icons */
 .info label{
-  font-size: 20px;
+  font-size: 30px;
 }
