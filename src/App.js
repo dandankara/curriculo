@@ -1,18 +1,18 @@
-import Sidebar from './components/Sidebar/Sidebar';
-import Content from './components/Main/Content';
-import './index.css'
+import Sidebar from './Sidebar';
+import Content from './Content';
+import React, { Component } from 'react';
 
-function App() {
-  return (
+class App extends Component {
+  render(){
+    return(
+      <div>
 
-    <div className="App">
+        <Sidebar />
+        <Content />
 
-      <Sidebar />
-
-      <Content />
-
-    </div>
-  );
+      </div>
+    )
+  }
 }
 
 export default App;
