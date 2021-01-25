@@ -5,12 +5,14 @@ import { LinkedinSquare } from '@styled-icons/boxicons-logos/'
 
 import { Info } from './styles'
 import { Content } from './styles'
-import { Todo } from './styles'
+// import { Todo } from './styles'
+
+import './App'
 
 class App extends Component {
   render() {
     return (
-      <Todo>
+      <>
           <Info>
             <div>
               <img src="https://avatars.githubusercontent.com/u/65553049?s=460&u=7616301b1e4aad0c062411c373c9c42c7f2ec8ef&v=4" /> <br />
@@ -76,7 +78,7 @@ class App extends Component {
             </div>
             
           </Content>
-      </Todo>
+      </>
     )
   }
 }

@@ -40,7 +40,8 @@ export const Content = styled.div`
     }
 `;
 
-export const Todo = styled.div`
-`;
+// export const Todo = styled.div`
+  
+// `;
 
 
