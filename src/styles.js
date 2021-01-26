@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Info = styled.div`
-  /* background-color:red; */
+  
   margin-top:10px;
   font-size:25px;
   float:left;
@@ -12,11 +12,14 @@ export const Info = styled.div`
       max-height:180px;
       width: auto;
       height:auto;
+      align-content:center;
+      margin-bottom:10px;
     }
   a{
     color: black;
     padding:5px;
     text-decoration:none;
+    margin-left:20px;
   }
 `;
 
@@ -40,8 +43,10 @@ export const Content = styled.div`
     }
 `;
 
-// export const Todo = styled.div`
-  
-// `;
+export const App = styled.div`
+  background-color:blue;
+`;
 
-
+export const Footer = styled.div`
+  color:#FFFFFF
+`;

@@ -5,9 +5,9 @@ import { LinkedinSquare } from '@styled-icons/boxicons-logos/'
 
 import { Info } from './styles'
 import { Content } from './styles'
-// import { Todo } from './styles'
+import { Footer } from './styles'
+import './index.css'
 
-import './App'
 
 class App extends Component {
   render() {
@@ -15,8 +15,10 @@ class App extends Component {
       <>
           <Info>
             <div>
-              <img src="https://avatars.githubusercontent.com/u/65553049?s=460&u=7616301b1e4aad0c062411c373c9c42c7f2ec8ef&v=4" /> <br />
-              <span>Daniel Cunha</span> <br />
+              <img src="https://avatars.githubusercontent.com/u/65553049?s=460&u=7616301b1e4aad0c062411c373c9c42c7f2ec8ef&v=4" /> <br/>
+
+              <small>Front-end Development</small> <br/>
+
               <a href="https://github.com/dandankarai"> <Github size="40" /></a>
               <a href="https://www.linkedin.com/in/daniel-cunha001"> <LinkedinSquare size="43" /> </a>
             </div>
@@ -54,8 +56,8 @@ class App extends Component {
                 <b> <li>Auxiliar de escritório.</li> </b> 
                 <small> Cooper Rubi <br/> </small>
                 <small> Fev. de 2018 - Jul. de 2018 </small> <br/> <br/>
-                Responsável pelo suporte técnico na empresa, 
-                cadastro de funcionários no sistema da mesma e alteração no 
+                Responsável pelo suporte técnico da empresa; 
+                Cadastro de funcionários no sistema da mesma e alteração no 
                 banco de dados de funcionários em questão de cargo ou salário. <br/> <br/>
 
                 <b> <li>Agente Fiscalizador.</li> </b> 
@@ -67,8 +69,6 @@ class App extends Component {
                 
               </ul>
 
-
-
               <h3>Cursos</h3>
               <ul>
                 <li>React Native: Desenvolva APPs Nativos para Android e iOS (UDEMY)</li>
@@ -78,6 +78,12 @@ class App extends Component {
             </div>
             
           </Content>
+
+          <div>
+          <Footer>
+            Desenvolvido por Daniel Cunha 
+          </Footer>
+          </div>
       </>
     )
   }
