@@ -48,6 +48,7 @@ class App extends Component {
               <ul>
                 <li>Calculadora (Javascript - React Native)</li>
                 <li>Currículo (JavaScript - React)</li>
+                <li>Instagram Clone - Em desenvolvimento (JavaScript-React Native)</li>
                 <p> <b> Todos os projetos citados se encontra no Github!!! </b> </p>
               </ul>
 
