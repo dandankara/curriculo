@@ -19,7 +19,7 @@ class App extends Component {
 
               <small>Front-end Development</small> <br/>
 
-              <a href="https://github.com/dandankarai"> <Github size="40" /></a>
+              <a href="https://github.com/dandankara"> <Github size="40" /></a>
               <a href="https://www.linkedin.com/in/daniel-cunha001"> <LinkedinSquare size="43" /> </a>
             </div>
           </Info>
